@@ -1,0 +1,17 @@
+.Grid {
+    height: 50%;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Grid_box {
+    height: 4rem;
+    width: 4rem;
+    background-color: #2360B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
